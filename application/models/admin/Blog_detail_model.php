@@ -65,20 +65,18 @@ WHERE
 	}
 
 
-	public function blog_detail_update_data($data)
+	public function blog_detail_update_data($data,$blog_image)
 	{
 		// echo ("hi");
 		$newdata = [
-			'seo_title' => $data['seo_title'],
-			'seo_keywords' => $data['seo_keywords'],
-			'seo_desc' => $data['seo_desc'],
+			'title' => $data['title'],
+			'keywords' => $data['keywords'],
+			'meta_description' => $data['meta_description'],
 			'blog_name' => $data['blog_name'],
-			'blog_image'=>$data['blog_image'],
-            'blog_category' => $data['blog_category'],
-            'blog_author' => $data['blog_author'],
+			'blog_image' => $blog_image,
+            'slug' => $data['slug'],
             'blog_date' => $data['blog_date'],
             'blog_desc' => $data['blog_desc'],
-            'long_desc' => $data['long_desc'],
 		];
 		// print_r($newdata);
 		$this->db->where('id', $data['id']);

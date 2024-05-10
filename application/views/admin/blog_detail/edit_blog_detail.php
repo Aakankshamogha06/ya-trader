@@ -1,14 +1,16 @@
-<div class="container-fluid">
-    <div class="container-fluid">
-        
+<div class="content">
+    <div class="container-fluid pt-4 px-4">
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-12">
 
-            <div class="card">
-                <div class="card-body">
+                <div class="bg-secondary rounded h-100 p-4">
+                    <h6 class="mb-4">BLOG DETAILS</h6>
+                    <hr style="color: #ffc107; border:2px;">
                     <?php foreach ($view_blog_detail as $row) :
 
                     ?>
                         <div class="card-header">
-                            <h5>Edit blog_detail</h5>
+                            <h5>Edit</h5>
                             <?php if (isset($msg) || validation_errors() !== '') : ?>
                                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                                     <?= validation_errors(); ?>
@@ -23,11 +25,11 @@
                                 <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4" class="form-label">SEO Title  <span class="text-danger">*</span> </label>
-                                    <input type="text" name="seo_title" parsley-trigger="change" class="form-control" id="seo_title" value="<?= $row->seo_title ?>" placeholde="SEO Title  " required>
+                                    <input type="text" name="title" parsley-trigger="change" class="form-control" id="title" value="<?= $row->title ?>" placeholde="SEO Title  " required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4" class="form-label">SEO Keywords  <span class="text-danger">*</span> </label>
-                                    <input type="text" name="seo_keywords" parsley-trigger="change" class="form-control" id="seo_keywords" value="<?= $row->seo_keywords ?>" placeholde="SEO Keywords  " required>
+                                    <input type="text" name="keywords" parsley-trigger="change" class="form-control" id="keywords" value="<?= $row->keywords ?>" placeholde="SEO Keywords  " required>
                                 </div>
                             </div>
                            
@@ -38,29 +40,18 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4" class="form-label">SEO Description <span class="text-danger">*</span> </label>
-                                    <textarea type="text" name="seo_desc" parsley-trigger="change" class="form-control" id="seo_desc" value="<?= $row->seo_desc ?>" placeholde="SEO Description " required></textarea>
+                                    <textarea type="text" name="meta_description" parsley-trigger="change" class="form-control" id="meta_description" value="<?= $row->meta_description ?>" placeholde="SEO Description " required></textarea>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4" class="form-label">Blog Image  <span class="text-danger">*</span> </label>
                                     <input type="file" name="blog_image" parsley-trigger="change" class="form-control" id="blog_image"  placeholde="Blog Image  " required>
                                 </div>
-                                <div class="form-group col-md-12">
-                                <label for="blog_category" class="form-label"> Blog Category <span class="text-danger">*</span></label>
-                                    <select id="blog_category" class="form-control" name="blog_category">
-                                        <option value="">Select Blog Category</option>
-                                        <?php
-                                        $blog_fetch_data = $this->blog_detail_model->blog_fetch();
-                                        foreach ($blog_fetch_data as $data) { ?>
-                                            <option value="<?php echo $data['id']; ?>"<?php if ($data['id'] === $row->blog_category ) echo 'selected="selected"'?>><?php echo $data['category']; ?></option>
-                                        <?php } ?>
-
-                                    </select>
-                                </div>
+                               
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputEmail4" class="form-label">Blog Author  <span class="text-danger">*</span> </label>
-                                    <input type="text" name="blog_author" parsley-trigger="change" class="form-control" id="blog_author" value="<?= $row->blog_author ?>" placeholde="Blog Author  " required>
+                                    <label for="inputEmail4" class="form-label">Slug  <span class="text-danger">*</span> </label>
+                                    <input type="text" name="slug" parsley-trigger="change" class="form-control" id="slug" value="<?= $row->slug ?>" placeholde="Slug  " required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4" class="form-label">Blog Date  <span class="text-danger">*</span> </label>
@@ -71,19 +62,18 @@
                                     <label for="inputEmail4" class="form-label">Blog Description  <span class="text-danger">*</span> </label>
                                     <textarea type="text" name="blog_desc" parsley-trigger="change" class="form-control" id="blog_desc"  placeholde="Blog Description  " required> <?=$row->blog_desc ?> </textarea>
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4" class="form-label">Blog Long Description  <span class="text-danger">*</span> </label>
-                                    <textarea type="text" name="long_desc" parsley-trigger="change" class="form-control" id="long_desc"  placeholde="Blog Long Description  " required> <?=$row->long_desc ?> </textarea>
-                                </div>
+                               
                             
 
-                    </div>
+                    
                         <div class="widget-footer text-left">
 
                             <button type="submit" name="submit" value="update blog_detail" class="btn btn-primary " style="margin: 10px;">update blog_detail</button>
                             <button type="reset" class="btn btn-outline-primary" style="margin-left: 0px;">Reset</button>
                         </div>
                         </form>
+                        </form>
+                </div>
             </div>
         </div>
         <!-- [ sample-page ] end -->
@@ -92,22 +82,15 @@
 <?php endforeach; ?>
 
 </div>
-
 <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
 
- 
 
-<script>
 
-           CKEDITOR.replace('long_desc', {
+   <script>
+       
+       CKEDITOR.replace('blog_desc', {
 
-               format_tags: 'p;h1;h2;h3;h4;h5;h6'
+           format_tags: 'p;h1;h2;h3;h4;h5;h6'
 
-           });
-
-           CKEDITOR.replace('blog_desc', {
-
-format_tags: 'p;h1;h2;h3;h4;h5;h6'
-
-});
-</script>
+       });
+   </script>

@@ -8,7 +8,7 @@ class Website extends CI_Controller
 
         $this->load->helper('url');
         $this->load->model('admin/Blog_detail_model', 'Blog_detail_model');
-
+        $this->load->model('admin/Seo_model', 'Seo_model');
        
         
     }
@@ -46,8 +46,9 @@ class Website extends CI_Controller
 
     public function index()
     {
+        $data['seo_view'] = $this->Seo_model->seo_view();
         $this->load->view('frontend/header');
-        $this->load->view('frontend/index');
+        $this->load->view('frontend/index',$data);
         $this->load->view('frontend/footer');
     }
 

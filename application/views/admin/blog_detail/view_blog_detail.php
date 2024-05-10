@@ -42,7 +42,7 @@
                     </td>
                     <td><?= $row->slug ?></td>
                     <td><?= $row->blog_date ?></td>
-                    <td><?= $row->blog_desc ?></td>
+                    <td><?= substr(strip_tags($row->blog_desc),0,300) ?>....</td>
 
                     <td class="text-right">
                     <a href="<?= base_url('admin/blog_detail/blog_detail_edit/' . $row->id); ?>">

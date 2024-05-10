@@ -1,3 +1,34 @@
+<?php
+$this->load->helper('url');
+
+$current_uri = uri_string();
+$segments = explode('/', $current_uri);
+$page_name = end($segments);
+
+$seo_data = $this->Seo_model->getseo_data($page_name);
+$seo_data_blog = $this->Blog_detail_model->blog_detail_data_seo($page_name);
+$seo_title = "Start Your Own Forex Brokerage | Forex Broker Services"; // Default title
+
+$meta_description = '';
+$keywords = '';
+
+if ($seo_data) {
+    $row = reset($seo_data);
+    $seo_title = htmlspecialchars($row->title);
+    $keywords = htmlspecialchars($row->keywords);
+    $meta_description = htmlspecialchars($row->meta_description);
+}
+
+// Check for blog SEO data separately
+if ($seo_data_blog) {
+    foreach ($seo_data_blog as $row) {
+        $seo_title = htmlspecialchars($row->title);
+        $meta_description = htmlspecialchars($row->meta_description);
+        $keywords = htmlspecialchars($row->keywords);
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -14,8 +45,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="_3QOGR0gdyj0JomXSgQlMX24AWsMxL7f_k3fORwaSDs" />
-  <title>Document</title>
-
+  <title><?=$seo_title?></title>
+    <meta name="description" content="<?=$meta_description?>"/>
+    <meta name="keywords" content="<?=$keywords?>" />
+    <
   <!--Styles-->
   <link rel="stylesheet" href="<?=base_url()?>public/web/Assets/css/header/header.css">
   <!--Bootsrap Link-->
