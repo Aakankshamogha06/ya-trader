@@ -52,7 +52,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'website';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['admin'] = 'admin/auth';
 
+// ADMIN PANEL
+// blog ****************
+$route['blog/add_blog'] = 'admin/blog/add_blog';
+$route['blog/blog_submit_data'] = 'admin/blog/blog_submit_data';
+$route['blog/view_blog']        = 'admin/blog/blog_view';
+$route['blog/edit_blog/(:any)'] = 'admin/blog/blog_edit/$1';
+$route['blog/blog_update_data'] = 'admin/blog/blog_update_data';
+$route['blog/blog_delete/(:any)'] = 'admin/blog/blog_delete/$1';
+
+// seo ****************
+$route['seo/add_seo'] = 'admin/seo/add_seo';
+$route['seo/seo_submit_data'] = 'admin/seo/seo_submit_data';
+$route['seo/view_seo']        = 'admin/seo/seo_view';
+$route['seo/edit_seo/(:any)'] = 'admin/seo/seo_edit/$1';
+$route['seo/seo_update_data'] = 'admin/seo/seo_update_data';
+$route['seo/seo_delete/(:any)'] = 'admin/seo/seo_delete/$1';
 
 
 // WEBSITE
