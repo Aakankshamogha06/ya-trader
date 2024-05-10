@@ -79,209 +79,55 @@
     </div>
 
     <!-- blog cards -->
+    
     <div class="seperate-bg py-5">
       <div class="container">
+     
         <div class="row gy-4">
+        <?php  
+     foreach($blog_detail_view as $row):?>
           <div class="col-md-4" data-aos="flip-down" data-aos-duration="500">
             <div class="fund-card-box h-100 zoom-animation blog-card">
+            
               <div class="row">
+              
+
                 <div class="col-sm-12">
                   <figure>
-                    <a href="what-is-a-prop-firm-forex-how-does-it-work.html">
+                    <a href="<?=base_url()?>blog/<?=str_replace(' ','-',strtolower($row->slug));?>">
                       <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/What Is A Prop Firm Forex How Does It Work.jpg"
+                        src="<?=base_url('uploads/blog/').$row->blog_image;?>"
                         alt="What Is A Prop Firm Forex? How Does It Work?"
                         class="img-fluid" />
                     </a>
                   </figure>
                   <a
-                    href="what-is-a-prop-firm-forex-how-does-it-work.html"
+                    href="<?=base_url()?>blog/<?=str_replace(' ','-',strtolower($row->slug));?>"
                     class="text-decoration-none">
                     <h4 class="h4-fund">
-                      What Is A Prop Firm Forex? How Does It Work?
-                    </h4>
+                    <?=$row->blog_name?>                    
+                  </h4>
                   </a>
                   <p class="pt-0 text-dark">
-                    Prop firms, also known as proprietary trading firms, use
-                    their own money to trade on behalf of their clients.
+                  <?=$row->meta_description?>
                   </p>
                   <button type="button" class="btn btn-lg me-btn-new">
-                    <a href="what-is-a-prop-firm-forex-how-does-it-work.html"
+                    <a href="<?=base_url()?>blog/<?=str_replace(' ','-',strtolower($row->slug));?>"
                       >Read More</a
                     >
                   </button>
                 </div>
+                
               </div>
+              
             </div>
+           
           </div>
-          <div class="col-md-4" data-aos="flip-down" data-aos-duration="1000">
-            <div class="fund-card-box h-100 zoom-animation blog-card">
-              <div class="row">
-                <div class="col-sm-12">
-                  <figure>
-                    <a
-                      href="how-to-get-funded-as-a-trader-a-complete-guide.html">
-                      <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/Many people who want to trade say that they can't get started because they need more money.jpg"
-                        alt="How To Get Funded as A Trader? A Complete Guide"
-                        class="img-fluid" />
-                    </a>
-                  </figure>
-                  <a
-                    href="how-to-get-funded-as-a-trader-a-complete-guide.html"
-                    class="text-decoration-none">
-                    <h4 class="h4-fund">
-                      How To Get Funded as A Trader? A Complete Guide
-                    </h4>
-                  </a>
-                  <p class="pt-0 text-dark">
-                    Many people who want to trade say that they can't get
-                    started because they need more money.
-                  </p>
-                  <button type="button" class="btn btn-lg me-btn-new">
-                    <a
-                      href="how-to-get-funded-as-a-trader-a-complete-guide.html"
-                      >Read More</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="flip-down" data-aos-duration="1500">
-            <div class="fund-card-box h-100 zoom-animation blog-card">
-              <div class="row">
-                <div class="col-sm-12">
-                  <figure>
-                    <a
-                      href="how-to-get-a-funded-trading-account-an-expert-guide.html">
-                      <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/how-to-get-a-funded-trading-account-an-expert-guide.jpg"
-                        alt="How To Get A Funded Trading Account An Expert Guide"
-                        class="img-fluid" />
-                    </a>
-                  </figure>
-                  <a
-                    href="how-to-get-a-funded-trading-account-an-expert-guide.html"
-                    class="text-decoration-none">
-                    <h4 class="h4-fund">
-                      How To Get A Funded Trading Account An Expert Guide
-                    </h4>
-                  </a>
-                  <p class="pt-0 text-dark">
-                    Any ambitious Forex trader would find it alluring to become
-                    a funded trader. Although it could appear
-                  </p>
-                  <button type="button" class="btn btn-lg me-btn-new">
-                    <a
-                      href="how-to-get-a-funded-trading-account-an-expert-guide.html"
-                      >Read More</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="flip-down" data-aos-duration="2000">
-            <div class="fund-card-box h-100 zoom-animation blog-card">
-              <div class="row">
-                <div class="col-sm-12">
-                  <figure>
-                    <a href="how-to-become-a-funded-trader.html">
-                      <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/expert-tips.jpg"
-                        alt="How to Become a Funded Trader - Expert Tips | Yatrader"
-                        class="img-fluid" />
-                    </a>
-                  </figure>
-                  <a
-                    href="how-to-become-a-funded-trader.html"
-                    class="text-decoration-none">
-                    <h4 class="h4-fund">
-                      How to Become a Funded Trader - Expert Tips | Yatrader
-                    </h4>
-                  </a>
-                  <p class="pt-0 text-dark">
-                    Many people who want to trade say that they can't get
-                    started because they need more money.
-                  </p>
-                  <button type="button" class="btn btn-lg me-btn-new">
-                    <a href="how-to-become-a-funded-trader.html">Read More</a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="flip-down" data-aos-duration="2500">
-            <div class="fund-card-box h-100 zoom-animation blog-card">
-              <div class="row">
-                <div class="col-sm-12">
-                  <figure>
-                    <a
-                      href="how-does-a-funded-forex-account-work-an-expert-guide.html">
-                      <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/how-does-a-funded-forex-account-work-an-expert-guide.jpg"
-                        alt="How Does A Funded Forex Account Work? An Expert Guide"
-                        class="img-fluid" />
-                    </a>
-                  </figure>
-                  <a
-                    href="how-does-a-funded-forex-account-work-an-expert-guide.html"
-                    class="text-decoration-none">
-                    <h4 class="h4-fund">
-                      How Does A Funded Forex Account Work? An Expert Guide
-                    </h4>
-                  </a>
-                  <p class="pt-0 text-dark">
-                    The trading industry may be a scary and challenging place to
-                    work. Trading-related upfront expenses, brokerage fees
-                  </p>
-                  <button type="button" class="btn btn-lg me-btn-new">
-                    <a
-                      href="how-does-a-funded-forex-account-work-an-expert-guide.html"
-                      >Read More</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="flip-down" data-aos-duration="3000">
-            <div class="fund-card-box h-100 zoom-animation blog-card">
-              <div class="row">
-                <div class="col-sm-12">
-                  <figure>
-                    <a href="gold-futures-technical-analysis.html">
-                      <img
-                        src="<?=base_url()?>public/web/Assets/Images/Blogs/gold-futures-technical-analysis.jpg"
-                        alt="Gold Futures Technical Analysis By Yatrader"
-                        class="img-fluid" />
-                    </a>
-                  </figure>
-                  <a
-                    href="gold-futures-technical-analysis.html"
-                    class="text-decoration-none">
-                    <h4 class="h4-fund">
-                      Gold Futures Technical Analysis By Yatrader
-                    </h4>
-                  </a>
-                  <p class="pt-0 text-dark">
-                    Gold, popularly known as yellow metal, is one of the safe
-                    havens for conservative investors. There are people who
-                  </p>
-                  <button type="button" class="btn btn-lg me-btn-new">
-                    <a href="gold-futures-technical-analysis.html">
-                      Read More
-                    </a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php endforeach?>
         </div>
       </div>
     </div>
-
+   
     <!--footer-->
     <div id="myfooter"></div>
     <script type="text/javascript">

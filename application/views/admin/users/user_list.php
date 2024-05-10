@@ -1,7 +1,8 @@
+<div class="content">
 
 <div class="container-fluid pt-4 px-4">
   <div class="row g-4 justify-content-center">
-    <div class="col-lg-8">
+    <div class="col-lg-12">
       <div class="bg-secondary rounded p-4">
         <h6 class="mb-4">USERS</h6>
         <a href="<?= base_url('admin/users/add'); ?>">
@@ -33,9 +34,9 @@
                     <td><?= $row['mobile_no']; ?></td>
                     <td><span class="btn  btn-primary btn-sm"><?= $row['role_name']; ?><span></td>
                     <td class="text-right">
-                      <a href="<?= base_url('admin/users/edit/'  . $row['id']); ?>">
+                      <!-- <a href="<?= base_url('admin/users/edit/'  . $row['id']); ?>">
                         <i class="fas fa-edit" style="font-size: 24px; color: blue;"></i>
-                      </a>
+                      </a> -->
                       <a href="<?= base_url('admin/users/del/'  . $row['id']); ?>" onclick="return confirm('Are you sure want to delete ?');">
                         <i class="fas fa-trash-alt" style="font-size: 24px; color: red;"></i>
                       </a>
@@ -49,4 +50,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>

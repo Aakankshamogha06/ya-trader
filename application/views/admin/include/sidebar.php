@@ -32,24 +32,17 @@ $role = $this->session->userdata('role_name'); // Fetch role from session
             </div>
             <!-- Navigation links -->
             <div class="navbar-nav w-100">
-                <!-- Conditional check for user role -->
-                <?php if ($this->session->userdata('role') === '1') : ?>                    <!-- Dashboard link -->
+                <?php if ($this->session->userdata('role') === '1') : ?>               
                     <a href="<?=base_url('admin/dashboard');?>" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>DASHBOARD</a>
-                    <!-- Users link -->
                     <a href="<?=base_url('admin/users');?>" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>USERS</a>
-                    <!-- SEO link -->
                     <a href="<?= base_url('admin/seo/seo_view'); ?>" class="nav-item nav-link"><i class="fa fa-th me-2"></i>SEO</a>
-                    <!-- Blog link -->
-                    <a href="<?= base_url('admin/blog/blog_view'); ?>" class="nav-item nav-link"><i class="fa fa-th me-2"></i>BLOG</a>
-                <!-- End of conditional check -->
+                    <a href="<?= base_url('admin/blog_detail/blog_detail_view'); ?>" class="nav-item nav-link"><i class="fa fa-th me-2"></i>BLOG</a>
                 <?php endif; ?>
-                <?php if ($this->session->userdata('role') === '2') : ?>                    <!-- Dashboard link -->
+                
+                <?php if ($this->session->userdata('role') === '3') : ?>                    
                     <a href="<?=base_url('admin/dashboard');?>" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>DASHBOARD</a>
-                    <!-- SEO link -->
                     <a href="<?= base_url('admin/seo/seo_view'); ?>" class="nav-item nav-link"><i class="fa fa-th me-2"></i>SEO</a>
-                    <!-- Blog link -->
                     <a href="<?= base_url('admin/blog/blog_view'); ?>" class="nav-item nav-link"><i class="fa fa-th me-2"></i>BLOG</a>
-                <!-- End of conditional check -->
                 <?php endif; ?>
             </div>
         </nav>

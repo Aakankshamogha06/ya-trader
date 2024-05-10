@@ -7,6 +7,8 @@ class Website extends CI_Controller
         parent::__construct();
 
         $this->load->helper('url');
+        $this->load->model('admin/Blog_detail_model', 'Blog_detail_model');
+
        
         
     }
@@ -20,8 +22,18 @@ class Website extends CI_Controller
 
     public function blog()
     {
+        $data['blog_detail_view'] = $this->Blog_detail_model->blog_detail_view();
         $this->load->view('frontend/header');
-        $this->load->view('frontend/blog');
+        $this->load->view('frontend/blog',$data);
+        $this->load->view('frontend/footer');
+    }
+
+
+    public function blog_details()
+    {
+        $data['blog_detail_view'] = $this->Blog_detail_model->blog_detail_data_nm();
+        $this->load->view('frontend/header');
+        $this->load->view('frontend/blog-detail',$data);
         $this->load->view('frontend/footer');
     }
 
