@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svgjs="http://svgjs.com/svgjs" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="288" >
+    <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" data-name="Promote Icon" viewBox="0 0 120.252 115.59">
+        <path fill="#ffc83d" d="M34.4,29.918,27.089,23a10.72,10.72,0,0,0,1.379-5.191,10.922,10.922,0,1,0-5.112,9.178l7.3,6.906A24.846,24.846,0,0,1,34.4,29.918Z" class="color000 svgShape" data-name="Path 84528" transform="translate(10.542 8.529)" />
+        <path fill="#ffc83d" d="M32.514,38.493l9.72-16.357a10.728,10.728,0,1,0-4.715-2.753L27.829,35.694A24.274,24.274,0,0,1,32.514,38.493Z" class="color000 svgShape" data-name="Path 84529" transform="translate(43.373 -.911)" />
+        <path fill="#ffc83d" d="M57.495,20.952a10.839,10.839,0,0,0-10.152,7.1l-13.5-1.333c0,.1.015.2.015.3a24.867,24.867,0,0,1-.545,5.14l13.5,1.333A10.833,10.833,0,1,0,57.495,20.952Z" class="color000 svgShape" data-name="Path 84530" transform="translate(51.914 30.324)" />
+        <path fill="#ffc83d" d="M35.008,45.66,31.989,32.468A24.721,24.721,0,0,1,26.662,33.7l3.024,13.194a10.816,10.816,0,1,0,5.322-1.233Z" class="color000 svgShape" data-name="Path 84531" transform="translate(37.135 48.272)" />
+        <path fill="#ffc83d" d="M36.733,25.37,19.923,31A10.829,10.829,0,1,0,21.7,36.919c0-.251-.054-.481-.074-.727l16.863-5.647A24.773,24.773,0,0,1,36.733,25.37Z" class="color000 svgShape" data-name="Path 84532" transform="translate(0 37.209)" />
+        <circle cx="18.603" cy="18.603" r="18.603" fill="#ffc83d" class="color000 svgShape" data-name="Ellipse 76" transform="translate(42.367 38.739)" />
+    </svg>
+</svg>

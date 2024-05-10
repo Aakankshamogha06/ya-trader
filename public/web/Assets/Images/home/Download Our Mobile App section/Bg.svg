@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1811.915" height="858.686" viewBox="0 0 1811.915 858.686">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 9px;
+      }
+
+      .cls-2 {
+        stroke: #eabf1b;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_160597" data-name="Group 160597" transform="translate(-63.695 -10574.01)">
+    <g id="See_Why_We_Are_-_bg2" data-name="See Why We Are - bg2" class="cls-1" transform="matrix(0.799, 0.602, -0.602, 0.799, 1801.796, 11307.01)">
+      <rect class="cls-3" width="92.426" height="87.728" rx="30"/>
+      <rect class="cls-4" x="4.5" y="4.5" width="83.426" height="78.728" rx="25.5"/>
+    </g>
+    <g id="See_Why_We_Are_-_bg1" data-name="See Why We Are - bg1" class="cls-2" transform="matrix(0.799, 0.602, -0.602, 0.799, 116.491, 10574.01)">
+      <rect class="cls-3" width="92.426" height="87.728" rx="30"/>
+      <rect class="cls-4" x="4.5" y="4.5" width="83.426" height="78.728" rx="25.5"/>
+    </g>
+  </g>
+</svg>

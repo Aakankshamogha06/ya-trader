@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2507" height="902.493" viewBox="0 0 2507 902.493">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eabf1b;
+        opacity: 0.23;
+      }
+    </style>
+  </defs>
+  <g id="Header_-_BG" data-name="Header - BG" transform="translate(268.001 608.719)">
+    <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-1" width="220" height="357" rx="57" transform="translate(-268.001 8.337) rotate(-45)"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" class="cls-1" width="220" height="357" rx="57" transform="translate(1830.999 41.337) rotate(-45)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="885" height="357" rx="127" transform="matrix(0.799, 0.602, -0.602, 0.799, 1039.849, -608.719)"/>
+  </g>
+</svg>

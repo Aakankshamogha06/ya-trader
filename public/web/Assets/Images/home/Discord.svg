@@ -1,0 +1,49 @@
+<svg id="Discord" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        opacity: 0;
+      }
+
+      .cls-4 {
+        stroke: #eabf1b;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-1" width="38" height="38" rx="4"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-2">
+    <g id="Group_1" data-name="Group 1">
+      <g id="FB_gb" data-name="FB gb">
+        <rect id="Rectangle_15" data-name="Rectangle 15" width="38" height="38" rx="4"/>
+        <path id="Facebook" class="cls-3" d="M9.328,28.057H3.108V14.808H0V9.7H3.108V6.64C3.108,2.478,4.863,0,9.849,0H14V5.106H11.406c-1.941,0-2.071.713-2.071,2.044L9.328,9.7h4.7l-.551,5.106H9.328V28.057Z" transform="translate(13.07 5)"/>
+      </g>
+      <g id="FB">
+        <g id="Rectangle_15-2" data-name="Rectangle 15" class="cls-4">
+          <rect class="cls-5" width="38" height="38" rx="4"/>
+          <rect class="cls-6" x="0.5" y="0.5" width="37" height="37" rx="3.5"/>
+        </g>
+        <g id="discord-icon-svgrepo-com" transform="translate(5.779 8.991)">
+          <path id="Path_83079" data-name="Path 83079" d="M24.094,1.844A23.165,23.165,0,0,0,18.226,0a17.221,17.221,0,0,0-.752,1.561,21.546,21.546,0,0,0-6.5,0A16.682,16.682,0,0,0,10.21,0,23.088,23.088,0,0,0,4.338,1.849,24.61,24.61,0,0,0,.121,18.327a23.461,23.461,0,0,0,7.2,3.688,17.9,17.9,0,0,0,1.541-2.539A15.152,15.152,0,0,1,6.432,18.3c.2-.151.4-.309.6-.471a16.585,16.585,0,0,0,14.389,0c.195.162.394.32.595.471a15.111,15.111,0,0,1-2.432,1.184,17.814,17.814,0,0,0,1.541,2.539,23.414,23.414,0,0,0,7.2-3.69A24.586,24.586,0,0,0,24.094,1.844ZM9.5,15.01A2.761,2.761,0,0,1,6.94,12.1,2.746,2.746,0,0,1,9.5,9.19,2.729,2.729,0,0,1,12.054,12.1,2.743,2.743,0,0,1,9.5,15.01Zm9.45,0A2.761,2.761,0,0,1,16.389,12.1,2.746,2.746,0,0,1,18.946,9.19,2.729,2.729,0,0,1,21.5,12.1,2.744,2.744,0,0,1,18.946,15.01Z" transform="translate(-1 -1)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

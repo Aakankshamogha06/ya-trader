@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="103" viewBox="0 0 710 103">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #292841;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: SFProDisplay-Medium, SF Pro Display;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Join_Discard" data-name="Join Discard" transform="translate(-115 -13620)">
+    <rect id="Rectangle_699" data-name="Rectangle 699" class="cls-1" width="710" height="103" rx="19" transform="translate(115 13620)"/>
+    <text id="Join_Discord_Community" data-name="Join Discord Community" class="cls-2" transform="translate(374 13685)"><tspan x="-211.543" y="0">Join Discord Community</tspan></text>
+    <g id="discord-icon-svgrepo-com" transform="translate(714.864 13644.084)">
+      <path id="Path_83079" data-name="Path 83079" class="cls-3" d="M62.19,4.76A59.794,59.794,0,0,0,47.044,0,44.45,44.45,0,0,0,45.1,4.028a55.615,55.615,0,0,0-16.786,0A43.058,43.058,0,0,0,26.354,0,59.6,59.6,0,0,0,11.2,4.771C1.611,19.256-.987,33.382.312,47.306a60.558,60.558,0,0,0,18.576,9.519,46.209,46.209,0,0,0,3.979-6.553A39.109,39.109,0,0,1,16.6,47.224c.525-.389,1.039-.8,1.536-1.215a42.809,42.809,0,0,0,37.141,0c.5.419,1.016.826,1.536,1.215a39,39,0,0,1-6.276,3.055,45.979,45.979,0,0,0,3.979,6.552A60.435,60.435,0,0,0,73.1,47.306,63.459,63.459,0,0,0,62.19,4.76ZM24.512,38.743c-3.626,0-6.6-3.385-6.6-7.508s2.91-7.514,6.6-7.514,6.664,3.385,6.6,7.514C31.118,35.357,28.2,38.743,24.512,38.743Zm24.391,0c-3.626,0-6.6-3.385-6.6-7.508s2.91-7.514,6.6-7.514,6.664,3.385,6.6,7.514C55.5,35.357,52.593,38.743,48.9,38.743Z" transform="translate(-1 -1)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svgjs="http://svgjs.com/svgjs" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="288">
+    <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" data-name="Get listed icon" viewBox="0 0 41.071 45.625">
+        <g fill="#ffc83d" class="color000 svgShape" data-name="Group 160452">
+            <path d="M27.836,5.995a1.174,1.174,0,0,0-1.654-.01,1.157,1.157,0,0,0-.01,1.654l2.792,2.811a1.172,1.172,0,0,0,.832.344h0a1.166,1.166,0,0,0,.822-.344L39.118,2A1.166,1.166,0,1,0,37.474.344L34.9,2.9a7.331,7.331,0,1,0,1.759,7.228,1.174,1.174,0,0,0-2.247-.679,5,5,0,1,1-1.176-4.886L29.806,7.974Z" class="color000 svgShape" data-name="Path 85482" transform="translate(-22.3)" />
+            <path d="M29.634,170.6a7.334,7.334,0,1,0,7.334,7.334A7.341,7.341,0,0,0,29.634,170.6Zm0,12.325a4.991,4.991,0,1,1,4.991-4.991A4.995,4.995,0,0,1,29.634,182.925Z" class="color000 svgShape" data-name="Path 85483" transform="translate(-22.3 -154.801)" />
+            <path d="M36.967,341.634a7.334,7.334,0,1,0-7.334,7.334A7.341,7.341,0,0,0,36.967,341.634Zm-7.334,5a4.991,4.991,0,1,1,4.991-4.991A4.995,4.995,0,0,1,29.634,346.634Z" class="color000 svgShape" data-name="Path 85484" transform="translate(-22.3 -303.342)" />
+            <path d="M226.461,235H203.676a1.176,1.176,0,0,0,0,2.352h22.785a1.176,1.176,0,1,0,0-2.352Z" class="color000 svgShape" data-name="Path 85485" transform="translate(-186.566 -213.041)" />
+            <path d="M226.461,71.5H203.676a1.176,1.176,0,1,0,0,2.352h22.785a1.176,1.176,0,1,0,0-2.352Z" class="color000 svgShape" data-name="Path 85486" transform="translate(-186.566 -64.664)" />
+            <path d="M226.461,398.8H203.676a1.176,1.176,0,1,0,0,2.352h22.785a1.176,1.176,0,1,0,0-2.352Z" class="color000 svgShape" data-name="Path 85487" transform="translate(-186.566 -361.675)" />
+        </g>
+    </svg>
+</svg>

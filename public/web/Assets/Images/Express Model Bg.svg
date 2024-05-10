@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2482.134" height="532.75" viewBox="0 0 2482.134 532.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7269E3;
+        opacity: 0.23;
+      }
+    </style>
+  </defs>
+  <g id="Evaluation_Model_Bg" data-name="Evaluation Model Bg" transform="translate(328.134 -532.251)">
+    <rect id="Rectangle_729" data-name="Rectangle 729" class="cls-1" width="220" height="357" rx="57" transform="translate(1745.999 812.563) rotate(-45)"/>
+    <rect id="Rectangle_735" data-name="Rectangle 735" width="376" height="357" rx="127" transform="matrix(0.799, 0.602, -0.602, 0.799, -113.286, 532.251)"/>
+  </g>
+</svg>

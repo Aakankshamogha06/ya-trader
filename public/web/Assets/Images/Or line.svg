@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="682" height="24" viewBox="0 0 682 24">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+        color: #707070;
+        font-family: SFProDisplay-ThinItalic, SF Pro Display;
+        font-weight: 200;
+        font-style: italic;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #707070;
+      }
+    </style>
+  </defs>
+  <g id="Or_line" data-name="Or line" transform="translate(-95 -486)">
+    <text id="Or" class="cls-1" transform="translate(425 505)"><tspan x="0" y="0">Or</tspan></text>
+    <line id="Line_89" data-name="Line 89" class="cls-2" x2="290" transform="translate(95 498)"/>
+    <line id="Line_90" data-name="Line 90" class="cls-2" x2="290" transform="translate(487 498.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128.488" height="128.488" viewBox="0 0 228.488 228.488">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.362" cy="0.115" r="1.057" gradientTransform="matrix(0.995, 0.095, -0.095, 0.995, 0.014, -0.03)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#"/>
+      <stop offset="1" stop-color="#7269E3"/>
+      <stop offset="1" stop-color="#7269E3"/>
+    </radialGradient>
+    <filter id="Ellipse_429" x="0" y="0" width="228.488" height="228.488" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.743" cy="0.304" r="1.099" gradientTransform="matrix(-0.598, 0.802, -0.802, -0.598, 1.431, -0.109)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7269E3"/>
+      <stop offset="0.808" stop-color="#031743"/>
+      <stop offset="1" stop-color="#031743"/>
+    </radialGradient>
+    <filter id="Ellipse_426" x="12.5" y="21.939" width="188.61" height="191.611" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#031743"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_32322" data-name="Group 32322" transform="translate(16548 -2353)">
+    <g id="Group_32313" data-name="Group 32313" transform="translate(-1349 -111.875)">
+      <g id="Group_26119" data-name="Group 26119" transform="translate(-15191 2472.875)">
+        <g transform="matrix(1, 0, 0, 1, -8, -8)" filter="url(#Ellipse_429)">
+          <circle id="Ellipse_429-2" data-name="Ellipse 429" cx="91.005" cy="91.005" r="91.005" transform="translate(8 25.3) rotate(-5.45)" fill="url(#radial-gradient)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -8, -8)" filter="url(#Ellipse_426)">
+          <circle id="Ellipse_426-2" data-name="Ellipse 426" cx="74.459" cy="74.459" r="74.459" transform="matrix(0.16, -0.99, 0.99, 0.16, 21.5, 168.98)" fill="url(#radial-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_32314" data-name="Group 32314" transform="translate(-16463.186 2415.508)">
+      <g id="Group_26109" data-name="Group 26109" transform="translate(0 0)">
+        <text id="_1" data-name="1" transform="translate(22.187 71.492)" fill="#fff" font-size="73" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-14.308" y="0">1</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

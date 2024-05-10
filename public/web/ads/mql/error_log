@@ -1,0 +1,2 @@
+[14-Apr-2023 05:07:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'yacampaign'@'localhost' (using password: YES) in /home/p6jbgytnxuaz/public_html/yamarketsltd.com/mql/mail.php on line 48
+[18-Apr-2023 12:16:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'yacampaign'@'localhost' (using password: YES) in /home/p6jbgytnxuaz/public_html/yamarketsltd.com/mql/mail.php on line 48

@@ -1,0 +1,27 @@
+<svg id="Bg_img" data-name="Bg img" xmlns="http://www.w3.org/2000/svg" width="282" height="285" viewBox="0 0 282 285">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eabf1b;
+        stroke: #707070;
+        opacity: 0.23;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_39" data-name="Ellipse 39" class="cls-1" transform="translate(0 31)">
+    <circle class="cls-2" cx="127" cy="127" r="127"/>
+    <circle class="cls-3" cx="127" cy="127" r="126.5"/>
+  </g>
+  <g id="Ellipse_40" data-name="Ellipse 40" class="cls-1" transform="translate(155)">
+    <circle class="cls-2" cx="63.5" cy="63.5" r="63.5"/>
+    <circle class="cls-3" cx="63.5" cy="63.5" r="63"/>
+  </g>
+</svg>

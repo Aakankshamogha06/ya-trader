@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="48" viewBox="0 0 324 48">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #eabf1b;
+      }
+
+      .cls-2 {
+        fill: #707070;
+        font-size: 14px;
+        font-family: SFProDisplay-LightItalic, SF Pro Display;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        fill: #eabf1b;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 11px;
+        font-family: SFProDisplay-Bold, SF Pro Display;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Email_box" data-name="Email box" transform="translate(-1518 -14510)">
+    <g id="Required_Field" data-name="Required Field" transform="translate(1518 14510.151)">
+      <g id="Rectangle_130" data-name="Rectangle 130" class="cls-1" transform="translate(0 -0.151)">
+        <path class="cls-5" d="M4,0H252a0,0,0,0,1,0,0V48a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z"/>
+        <path class="cls-6" d="M4,.5H251.5a0,0,0,0,1,0,0v47a0,0,0,0,1,0,0H4A3.5,3.5,0,0,1,.5,44V4A3.5,3.5,0,0,1,4,.5Z"/>
+      </g>
+      <text id="Enter_your_E-mail_Address" data-name="Enter your E-mail Address" class="cls-2" transform="translate(24 28.849)"><tspan x="0" y="0">Enter your E-mail Address</tspan></text>
+    </g>
+    <g id="button" transform="translate(1769.719 14510.151)">
+      <path id="Rectangle_131" data-name="Rectangle 131" class="cls-3" d="M0,0H68a4,4,0,0,1,4,4V44a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0.281 -0.151)"/>
+      <text id="Suscribe" class="cls-4" transform="translate(35.281 27.849)"><tspan x="-22.129" y="0">Suscribe</tspan></text>
+    </g>
+  </g>
+</svg>

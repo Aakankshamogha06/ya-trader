@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.903" height="14.903" viewBox="0 0 14.903 14.903">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="arrow_down" data-name="arrow down" transform="translate(-2.955 3.082) rotate(-45)">
+    <path id="Path_83077" data-name="Path 83077" class="cls-1" d="M8.453,7.7,0,8.453.756,0" transform="translate(0 6.264)"/>
+  </g>
+</svg>

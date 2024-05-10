@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="103" viewBox="0 0 710 103">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #077ae9;
+      }
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: SFProDisplay-Medium, SF Pro Display;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Join_Facebook" data-name="Join Facebook">
+  
+  <rect id="Rectangle_700" data-name="Rectangle 700" class="cls-1" width="710" height="103" rx="19"/>
+  <text id="Join_Facebook_Community" data-name="Join Facebook Community" class="cls-2" transform="translate(374 13685)"><tspan x="-211.543" y="0">Join Facebook Community</tspan></text>
+
+</g>
+</svg>
