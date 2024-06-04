@@ -25,7 +25,7 @@ class blog_detail_model extends CI_Model
 
 	public function blog_detail_view()
 {
-    $result = $this->db->query("SELECT * FROM `blog_detail`");
+    $result = $this->db->query("SELECT * FROM `blog_detail` ORDER BY blog_date DESC");
 
     if ($result->num_rows() > 0) {
         return $result->result();

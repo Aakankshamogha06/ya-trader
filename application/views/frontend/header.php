@@ -7,7 +7,7 @@ $page_name = end($segments);
 
 $seo_data = $this->Seo_model->getseo_data($page_name);
 $seo_data_blog = $this->Blog_detail_model->blog_detail_data_seo($page_name);
-$seo_title = "Start Your Own Forex Brokerage | Forex Broker Services"; // Default title
+$seo_title = "YaTrader - Best Forex Broker | Prop Trading Firm"; // Default title
 
 $meta_description = '';
 $keywords = '';
